@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script type="module" src="/@vite/client"></script>
+
+    <meta charset="UTF-8" />
+    <link class="link" rel="icon" href="/src/assets/favicon2.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rogTech</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js?t=1721309656725"></script>
+  </body>
+</html>
