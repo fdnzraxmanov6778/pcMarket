@@ -10,7 +10,7 @@ import Footer from '../components/Footer.vue'
         <p>We bring you only the best, hang with us</p>
       </div>
       <div class="imgCompany">
-        <img src="../picture/homeImg.png" alt="" class="shadowed-image" />
+        <img src="../picture/homeImg.png" alt="" class="imgHome" />
         <h1>
           ASUS ZenBook Pro 14 Duo OLED <br />
           Price : 1500$
@@ -105,7 +105,9 @@ import Footer from '../components/Footer.vue'
   top: 50px;
   left: 50px;
   filter: drop-shadow(0 0 20px rgb(28, 28, 28));
-  /* transform: perspective(1100px) rotateY(12deg) rotateX(5deg); */
+}
+.imgHome:hover {
+  transform: perspective(1100px) rotateY(12deg) rotateX(5deg);
 }
 .imgCompany {
   overflow-y: hidden;
@@ -160,7 +162,7 @@ import Footer from '../components/Footer.vue'
   padding: 90px 60px;
   height: fit-content;
   border-radius: 10px;
-  background: linear-gradient(135deg, #342a45 0%, #3d344d 100%);  
+  background: linear-gradient(135deg, #342a45 0%, #3d344d 100%);
   text-align: center;
   position: relative;
   top: 0;
